@@ -495,8 +495,8 @@ footer {
 
 @media screen and (max-width: 768px) {
     body{
-        width: 300px;
-        
+        width: 100px;
+
     }
     .divheader1 {
         height: 100px;
