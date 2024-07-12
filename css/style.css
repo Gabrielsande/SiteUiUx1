@@ -491,21 +491,21 @@ footer {
     background-color: blue;
 }
 
+/*responsividade*/
 
-
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 768px){
     body{
-        width: 100px;
-
+        height: auto;
+        font-size: 1.0em;
     }
     .divheader1 {
-        height: 1000px;
-
+        flex-direction: column;
+        height: auto;
         text-align: center;
+        position: absolute;
     }
 
     .divheader1 img {
-        justify-items: left;
         width: 120px;
         height: 80px;
     }
@@ -514,9 +514,7 @@ footer {
         flex-direction: column;
         gap: 10px;
     }
-    .divheader1 ul li a{
 
-    }
     .section0 {
         flex-direction: column;
     }
@@ -569,4 +567,6 @@ footer {
     .carousel-buttons button {
         width: 48%;
     }
-}
+   }
+
+
